@@ -21,7 +21,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_CUSTOM_MENUS": "",
   "VITE_ENABLE_CAMPAIGNS": "false",
   "VITE_TELEGRAM_URL": "https://t.me/opterdex",
-  "VITE_DISCORD_URL": "",
+  "VITE_DISCORD_URL": "https://discord.gg/opterdex",
   "VITE_TWITTER_URL": "https://x.com/opterdex",
   "VITE_SEO_SITE_NAME": "Opter",
   "VITE_SEO_SITE_DESCRIPTION": "Opter - Decentralized Perpetual Exchange",
