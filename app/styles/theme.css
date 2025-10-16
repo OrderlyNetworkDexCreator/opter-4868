@@ -2,77 +2,82 @@
   --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors */
-  --oui-color-primary: 12 16 16;
-  --oui-color-primary-light: 14 31 29;
-  --oui-color-primary-darken: 12 12 12;
-  --oui-color-primary-contrast: 255 255 255;
+  /* colors (from palette) */
+  /* Primary / Brand */
+  --oui-color-primary: 84 210 52;          /* #54D234 */
+  --oui-color-primary-light: 14 31 29;     /* #0E1F1D */
+  --oui-color-primary-darken: 12 12 12;    /* #0C0C0C */
+  --oui-color-primary-contrast: 255 255 255; /* #FFFFFF */
 
-  --oui-color-link: 12 20 19;
-  --oui-color-link-light: 12 12 12;
+  /* Links */
+  --oui-color-link: 12 20 19;              /* #0C1413 */
+  --oui-color-link-light: 12 12 12;        /* #0C0C0C */
 
-  --oui-color-secondary: 234 241 239;
-  --oui-color-tertiary: 184 208 202;
-  --oui-color-quaternary: 130 171 162;
+  /* Neutrals / Surfacing */
+  --oui-color-secondary: 234 241 239;      /* #EAF1EF */
+  --oui-color-tertiary: 187 208 202;       /* #BBD0CA */
+  --oui-color-quaternary: 130 171 162;     /* #82ABA2 */
 
-  --oui-color-danger: 238 40 43;
-  --oui-color-danger-light: 255 119 121;
-  --oui-color-danger-darken: 152 24 26;
-  --oui-color-danger-contrast: 184 208 202;
+  /* Status */
+  --oui-color-danger: 238 40 43;           /* #EE282B */
+  --oui-color-danger-light: 255 119 121;   /* #FF7779 */
+  --oui-color-danger-darken: 152 24 26;    /* #98181A */
+  --oui-color-danger-contrast: 187 208 202;/* #BBD0CA */
 
-  --oui-color-success: 84 210 52;
-  --oui-color-success-light: 55 201 167;
-  --oui-color-success-darken: 80 157 44;
-  --oui-color-success-contrast: 255 255 255;
+  --oui-color-success: 84 210 52;          /* #54D234 */
+  --oui-color-success-light: 55 201 167;   /* #37C9A7 */
+  --oui-color-success-darken: 80 157 44;   /* #509D2C */
+  --oui-color-success-contrast: 255 255 255; /* #FFFFFF */
 
-  --oui-color-warning: 252 209 71;
-  --oui-color-warning-light: 255 228 143;
-  --oui-color-warning-darken: 255 152 1;
-  --oui-color-warning-contrast: 234 241 239;
+  --oui-color-warning: 252 209 71;         /* #FCD147 */
+  --oui-color-warning-light: 255 228 143;  /* #FFE48F */
+  --oui-color-warning-darken: 250 152 1;   /* #FA9801 */
+  --oui-color-warning-contrast: 234 241 239; /* #EAF1EF */
 
-  --oui-color-fill: 12 12 12;
-  --oui-color-fill-active: 12 20 19;
+  /* Fills */
+  --oui-color-fill: 12 12 12;              /* #0C0C0C */
+  --oui-color-fill-active: 12 20 19;       /* #0C1413 */
 
-  --oui-color-base-1: 20 20 20;
-  --oui-color-base-2: 15 15 15;
-  --oui-color-base-3: 12 12 12;
-  --oui-color-base-4: 10 10 10;
-  --oui-color-base-5: 8 8 8;
-  --oui-color-base-6: 6 6 6;
-  --oui-color-base-7: 18 18 18;
-  --oui-color-base-8: 12 12 12;
-  --oui-color-base-9: 6 6 6;
-  --oui-color-base-10: 3 3 3;
+  /* Base scale (dark UI) */
+  --oui-color-base-1: 12 16 16;            /* #0C1010 */
+  --oui-color-base-2: 14 31 29;            /* #0E1F1D */
+  --oui-color-base-3: 12 12 12;            /* #0C0C0C */
+  --oui-color-base-4: 10 10 10;            /* #0A0A0A */
+  --oui-color-base-5: 8 8 8;               /* #080808 */
+  --oui-color-base-6: 6 6 6;               /* #060606 */
+  --oui-color-base-7: 24 24 24;            /* slightly lighter dark */
+  --oui-color-base-8: 12 12 12;            /* #0C0C0C */
+  --oui-color-base-9: 6 6 6;               /* #060606 */
+  --oui-color-base-10: 3 3 3;              /* #030303 */
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 130 171 162;
+  --oui-color-base-foreground: 255 255 255;/* #FFFFFF */
+  --oui-color-line: 130 171 162;           /* #82ABA2 */
 
-  --oui-color-trading-loss: 238 40 43;
-  --oui-color-trading-loss-contrast: 234 241 239;
-  --oui-color-trading-profit: 80 157 44;
-  --oui-color-trading-profit-contrast: 234 241 239;
+  /* Trading */
+  --oui-color-trading-loss: 238 40 43;           /* #EE282B */
+  --oui-color-trading-loss-contrast: 234 241 239;/* #EAF1EF */
+  --oui-color-trading-profit: 80 157 44;         /* #509D2C */
+  --oui-color-trading-profit-contrast: 234 241 239; /* #EAF1EF */
 
-  /* gradients */
-  --oui-gradient-primary-start: 15 15 15;
-  --oui-gradient-primary-end: 23 23 23;
+  /* gradients (from Brand Gradient image) */
+  --oui-gradient-primary-start: 11 22 17;  /* #0B1611 */
+  --oui-gradient-primary-end: 16 30 24;    /* #101E18 */
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  /* Optional secondary gradient (green brand sweep) */
+  --oui-gradient-success-start: 84 210 52; /* #54D234 */
+  --oui-gradient-success-end: 55 201 167;  /* #37C9A7 */
 
-  --oui-gradient-success-start: 23 201 23;
-  --oui-gradient-success-end: 41 233 169;
-
-  --oui-gradient-danger-start: 153 24 76;
+  --oui-gradient-danger-start: 153 24 76;  /* unchanged */
   --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 15 15 15;
-  --oui-gradient-brand-end: 23 23 23;
+  --oui-gradient-brand-start: 11 22 17;    /* #0B1611 */
+  --oui-gradient-brand-end: 16 30 24;      /* #101E18 */
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 152 58 8;  /* matches FA9801 family */
+  --oui-gradient-warning-end: 255 209 70;  /* #FCD146/47 */
 
   --oui-gradient-neutral-start: 10 10 10;
   --oui-gradient-neutral-end: 15 15 15;
@@ -86,7 +91,7 @@
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
-  /* spacing */
+  /* spacing (unchanged) */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
