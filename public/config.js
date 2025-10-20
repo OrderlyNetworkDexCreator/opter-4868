@@ -25,7 +25,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "https://x.com/opterdex",
   "VITE_SEO_SITE_NAME": "Opter",
   "VITE_SEO_SITE_DESCRIPTION": "Opter - Decentralized Perpetual Exchange",
-  "VITE_SEO_SITE_URL": "https://opter.io",
+  "VITE_SEO_SITE_URL": "https://trade.opter.io",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@opterdex",
